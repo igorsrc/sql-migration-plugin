@@ -1,0 +1,8 @@
+# code editor
+/.idea/
+
+# artifacts
+/build/
+
+# gradle
+.gradle

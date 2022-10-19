@@ -1,0 +1,23 @@
+plugins {
+    id 'groovy'
+    id 'java-gradle-plugin'
+    id 'java'
+    id 'maven-publish'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'com.igorsrc.migration.plugin'
+version '1.0'
+
+gradlePlugin {
+    plugins {
+        sqlMigrationPlugin {
+            id = 'sql-migration'
+            implementationClass = 'com.igorsrc.migration.plugin.PluginMain'
+            version = "1.0"
+        }
+    }
+}
