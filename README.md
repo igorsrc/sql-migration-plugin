@@ -1,0 +1,1 @@
+Gradle plugin for running sql migration
