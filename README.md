@@ -1,1 +1,2 @@
-Gradle plugin for running sql migration
+# Plugin description
+Runs SQL scripts from specified directory
